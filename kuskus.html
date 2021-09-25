@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="rere.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>entrega</title>
+</head>
+<body onmousemove="posi(event)">
+
+	<div class="gase" onclick="ahg()">neosistemas</div>
+	<div class="fif" id="gas"><img src="kaskas.png" alt="" class="uf" id="gas1"></div>
+
+				<div class="fofo" onclick="aagh()">De click :D</div>
+					<div class="ja" id="beatles"></div>
+						<div class="jaa" onclick="aaagh()" id="mostro"></div>
+						<div class="comen" > comentario: este trabajo me gusto mucho hacerlo ya que me parece algo muy familiar que ya podemos ver en paginas web grandes aunque quizas no lo realize completo me esforce y puede hacer esto :3</div>
+							<div class="comen3" > Da click en el titulo >:) </div>
+
+		
+		<script>
+			x=0;
+			z=0;
+			function agh1()
+			{
+				gas.style.width=250+"px";
+				gas.style.height=250+"px";
+				gas1.style.width=230+"px";
+				gas1.style.height=230+"px";
+					if(z==1)
+					{
+						setTimeout(agh2,1000);
+						z=z-1;a
+					}
+			}
+				function ahg()
+				{ 
+					setTimeout(agh1,1000);
+					z=z+1;
+				}
+					function agh2()
+					{
+						gas.style.width=0+"px";
+						gas.style.height=0+"px";
+						gas1.style.width=0+"px";
+						gas1.style.height=0+"px";	
+					}
+
+			function aagh()
+			{
+				beatles.style.width=300+"px";
+				beatles.style.height=250+"px";
+				beatles.style.color=" white";
+				mostro.innerHTML="X";
+				mostro.style.background="black";
+			}
+			function posi(event)
+			{
+				x=event.clientX;
+				y=event.clientY;
+				beatles.innerHTML=x+" , "+y;
+			}
+			function aaagh()
+			{
+				beatles.style.width=0+"px";
+				beatles.style.height=0+"px";
+				beatles.style.color=" #41DCDA";
+				mostro.innerHTML="";
+				mostro.style.background="#41DCDA";
+			}
+	
+			
+		</script>
+</body>
+</html>
